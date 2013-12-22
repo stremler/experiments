@@ -1,0 +1,16 @@
+TODO
+
+ - empty strings should sort last, not first.
+ - handle ascending and descending sorting
+ - add in a filter mechanism, something like looking for files like
+   filters/<columnname>
+   and loading/invoking them?
+   Any better methods?
+ - add some basic useful error handling
+
+ - Add anchors at jump changes
+ - Put a 'jump to' list at the top and bottom
+
+ - consider pulling in the XML and timestamp, then
+   storing the data in an sqlite3 database, and
+   reloading when the XML file timestamp changes.

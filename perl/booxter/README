@@ -1,0 +1,8 @@
+This is a simple script to take an XML dump of the movie
+database from Booxter and format it as a non-static web
+page.
+
+This script uses XML::TreePP (not included) to parse the XML.
+
+This is not necessarily the fastest or best way to accomplish
+this task. It is, however, potentially useful.
